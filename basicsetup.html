@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="intro.html">Introduction</a>
+                <ul class="submenu">
+                    <li><a>Our Purpose</a></li>
+                    <li><a>Acknowledgements</a></li>
+                </ul>
+            </li>
+            <li><a href="introtop.html">Intro To Programming</a>
+                <ul class="submenu">
+                    <li><a>List of Vocabulary</a></li>
+                    <li><a>Programming Languages</a></li>
+                    <li><a>Usages of Programming</a></li>
+                    <li><a>Basic Concepts</a></li>
+                </ul>
+            </li>
+            <li><a href="basicsetup.html">Basic Setup</a>
+                <ul class="submenu">
+                    <li><a>Introduction to IDEs</a></li>
+                    <li><a>System Requirements</a></li>
+                    <li><a>Languages and Recommended IDEs</a></li>
+                    <li><a>Additional Plugins</a></li>
+                </ul>
+            </li>
+            <li><a href="comwithai.html">Communicating With AI</a>
+                <ul class="submenu">
+                    <li><a>Phrasing/Communication</a></li>
+                </ul>
+            </li>
+            <li><a href="debug.html">Debug</a>
+                <ul class="submenu">
+                    <li><a>Tools</a></li>
+                    <li><a>Steps to Debug</a></li>
+                    <li><a>Where & How to Define a Bug</a></li>
+                    <li><a>How to Fix the Bug Using AI</a></li>
+                </ul>
+            </li>
+            <li><a href="#vocabulary-chart">Vocabulary Chart</a></li>
+        </ul>
+    </div>
+    <main id="swup" class="transition-fade">
+        <div id="content">
+            <h1 id="basic-setup">Basic Setup</h1>
+
+            <h2 id="introduction-ide">Introduction to IDEs</h2>
+            <ol>
+                <li>An Integrated Development Environment (IDE) serves as a comprehensive software suite designed to
+                    streamline and facilitate the software development process.</li>
+                <li>It functions as a centralized platform, offering a range of tools and features to assist developers
+                    in coding, debugging, and deploying applications.</li>
+                <li>The primary goal of an IDE is to enhance efficiency by providing an all-in-one solution that
+                    combines code editing, debugging, and project management within a unified interface.</li>
+            </ol>
+
+            <p>An IDE typically includes:</p>
+            <ul>
+                <li><strong>Code Editor:</strong> Enables developers to write, edit, and manage code efficiently with
+                    features like syntax highlighting and auto-completion.</li>
+                <li><strong>Debugger:</strong> Facilitates the identification and resolution of bugs and errors within
+                    the code, ensuring optimal performance.</li>
+                <li><strong>Compiler/Interpreter:</strong> Converts human-readable code into machine-executable
+                    instructions, allowing for code execution and testing.</li>
+                <li><strong>Build Automation Tools:</strong> Streamline the process of compiling source code into
+                    executable files or libraries.</li>
+                <li><strong>Project Management:</strong> Organizes and manages project files, facilitating collaboration
+                    and version control.</li>
+                <li><strong>User Interface (UI):</strong> Provides an intuitive interface for seamless navigation and
+                    accessibility to various features.</li>
+            </ul>
+
+            <img src="images/IDE.png" width="100%" alt="Visual Studio Code">
+            <p>Understanding the significance of an IDE in the development workflow is crucial for establishing a
+                productive and organized coding environment. Whether you're a novice or an experienced developer,
+                choosing the right IDE tailored to your programming language and preferences significantly contributes
+                to a smoother development experience.</p>
+
+            <h2 id="system-requirements">System Requirements</h2>
+            <p>Minimum system requirements for most Integrated Development Environments (IDEs) typically include:</p>
+
+            <ul>
+                <li><strong>Processor (CPU):</strong> A multi-core processor (e.g., dual-core or quad-core) with a clock
+                    speed of 2 GHz or higher is generally recommended for optimal performance.</li>
+                <li><strong>RAM (Memory):</strong> At least 4 GB of RAM is a common minimum requirement. However, for
+                    more resource-intensive development tasks, 8 GB or more may be recommended.</li>
+                <li><strong>Storage:</strong> IDEs usually require several gigabytes of free storage space. A minimum of
+                    10 GB of available hard disk space is a common requirement. Solid State Drives (SSDs) can
+                    significantly improve performance.</li>
+                <li><strong>Operating System:</strong> Most modern IDEs support multiple operating systems, including
+                    Windows, macOS, and Linux. Ensure that your operating system is within the supported versions
+                    specified by the IDE.</li>
+                <li><strong>Graphics:</strong> A basic graphics card with support for a screen resolution of 1280x800 or
+                    higher is typically sufficient. Graphics performance is not usually a critical factor for IDEs.</li>
+                <li><strong>Java Runtime Environment (JRE):</strong> Many IDEs, especially those written in Java,
+                    require a compatible version of the Java Runtime Environment. Make sure to install the recommended
+                    JRE version.</li>
+            </ul>
+
+            <p>If the minimum system requirements for an Integrated Development Environment (IDE) are not met, users may
+                experience the following issues:</p>
+
+            <ul>
+                <li><strong>Sluggish Performance:</strong> The IDE may run slowly and respond sluggishly, leading to a
+                    less-than-optimal coding experience. Actions like code editing, compilation, and debugging may be
+                    delayed.</li>
+                <li><strong>Freezing or Crashing:</strong> Insufficient system resources can cause the IDE to freeze or
+                    crash unexpectedly. This can result in loss of unsaved work and disrupt the development workflow.
+                </li>
+                <li><strong>Limited Functionality:</strong> Some features of the IDE may be disabled or exhibit reduced
+                    functionality if the system lacks the necessary resources. Certain resource-intensive tools or
+                    plugins may not work correctly.</li>
+                <li><strong>Compilation Errors:</strong> Compiling code may fail or produce errors if the system lacks
+                    the required processing power and memory. This can impede the development and testing process.</li>
+                <li><strong>Unresponsiveness:</strong> Users may experience unresponsiveness when interacting with the
+                    IDE, such as delayed mouse clicks, unresponsive menus, or slow scrolling. This can hinder the
+                    overall usability of the development environment.</li>
+                <li><strong>Compatibility Issues:</strong> Incompatibility with specific operating system versions or
+                    hardware configurations may arise, preventing the IDE from running altogether.</li>
+            </ul>
+
+            <p>To avoid these issues, it is crucial to adhere to the recommended system requirements outlined by the
+                IDE's documentation. Users should ensure that their hardware and software configurations meet or exceed
+                the specified minimums to guarantee a smooth and efficient development experience. Additionally, keeping
+                the system and IDE updated with the latest patches and versions can help address compatibility issues
+                and improve overall performance.</p>
+
+
+            <h2 id="recommended-ides">Recommended IDEs</h2>
+
+            <!-- Python IDEs -->
+            <div class="ide-item">
+                <p class="ide-title"><b>Python:</b></p>
+                <ul class="ide-list">
+                    <li class="ide-pros-cons">
+                        <strong>PyCharm:</strong>
+                        <p>Pros: Smart code completion and analysis, Powerful navigation and refactoring tools...</p>
+                        <p>Cons: Heavier on system resources, Some features are only available in the paid Professional
+                            version.</p>
+                        <p>Fees: Free community edition available; Professional edition requires a subscription.</p>
+                    </li>
+                    <li class="ide-pros-cons">
+                        <strong>Visual Studio Code (VSCode):</strong>
+                        <p>Pros: Lightweight and fast, Extensive extension marketplace, Git integration and built-in
+                            terminal...</p>
+                        <p>Cons: Some features may require extensions, Not as feature-rich as full IDEs for certain
+                            tasks.</p>
+                        <p>Fees: Free and open-source.</p>
+                    </li>
+                    <li class="ide-pros-cons">
+                        <strong>Jupyter Notebooks:</strong>
+                        <p>Pros: Interactive and ideal for data science, Supports visualizations and documentation...
+                        </p>
+                        <p>Cons: Limited for large-scale software development, Lack of robust debugging tools.</p>
+                        <p>Fees: Free and open-source.</p>
+                    </li>
+                    <!-- Add more Python IDEs if needed -->
+                </ul>
+            </div>
+
+            <!-- JavaScript IDEs -->
+            <div class="ide-item">
+                <p class="ide-title"><b>JavaScript:</b></p>
+                <ul class="ide-list">
+                    <li class="ide-pros-cons">
+                        <strong>Visual Studio Code (VSCode):</strong>
+                        <p>Pros: Cross-platform and highly customizable, Excellent JavaScript and TypeScript support...
+                        </p>
+                        <p>Cons: May require some configuration for certain languages, Full IDE features may depend on
+                            extensions.</p>
+                        <p>Fees: Free and open-source.</p>
+                    </li>
+                    <li class="ide-pros-cons">
+                        <strong>Atom:</strong>
+                        <p>Pros: Highly customizable and easy to use, Built-in package manager, Git integration and
+                            command palette...</p>
+                        <p>Cons: Slower performance for larger projects, Not as feature-rich as some competitors.</p>
+                        <p>Fees: Free and open-source.</p>
+                    </li>
+                    <li class="ide-pros-cons">
+                        <strong>WebStorm:</strong>
+                        <p>Pros: Dedicated IDE for web development, Smart coding assistance and error detection...</p>
+                        <p>Cons: Heavier on system resources, Commercial license required.</p>
+                        <p>Fees: Commercial license with a free trial available.</p>
+                    </li>
+                    <!-- Add more JavaScript IDEs if needed -->
+                </ul>
+            </div>
+
+            <!-- Java IDEs -->
+            <div class="ide-item">
+                <p class="ide-title"><b>Java:</b></p>
+                <ul class="ide-list">
+                    <li class="ide-pros-cons">
+                        <strong>Eclipse:</strong>
+                        <p>Pros: Extensible and customizable, Strong support for Java EE development...</p>
+                        <p>Cons: Steeper learning curve, Older-looking interface.</p>
+                        <p>Fees: Free and open-source.</p>
+                    </li>
+                    <li class="ide-pros-cons">
+                        <strong>IntelliJ IDEA:</strong>
+                        <p>Pros: Intelligent code completion and analysis, Excellent refactoring tools...</p>
+                        <p>Cons: Some advanced features are only available in the Ultimate edition, Commercial license
+                            for Ultimate edition.</p>
+                        <p>Fees: Community edition is free; Ultimate edition requires a subscription.</p>
+                    </li>
+                    <li class="ide-pros-cons">
+                        <strong>NetBeans:</strong>
+                        <p>Pros: Simple and easy to use, Good support for Java EE and Maven, Integrated profiler...</p>
+                        <p>Cons: Smaller plugin ecosystem compared to Eclipse, Less active development community.</p>
+                        <p>Fees: Free and open-source.</p>
+                    </li>
+                    <!-- Add more Java IDEs if needed -->
+                </ul>
+            </div>
+
+            <!-- C++ IDEs -->
+            <div class="ide-item">
+                <p class="ide-title"><b>C++:</b></p>
+                <ul class="ide-list">
+                    <li class="ide-pros-cons">
+                        <strong>Visual Studio:</strong>
+                        <p>Pros: Comprehensive features for C++ development, Powerful debugging tools...</p>
+                        <p>Cons: Heavier on system resources, Windows-centric.</p>
+                        <p>Fees: Free Community edition available; Professional and Enterprise editions require a
+                            subscription.</p>
+                    </li>
+                    <li class="ide-pros-cons">
+                        <strong>Code::Blocks:</strong>
+                        <p>Pros: Lightweight and fast, Cross-platform, Extensible through plugins...</p>
+                        <p>Cons: Less feature-rich compared to some IDEs, Interface may feel dated.</p>
+                        <p>Fees: Free and open-source.</p>
+                    </li>
+                    <li class="ide-pros-cons">
+                        <strong>CLion:</strong>
+                        <p>Pros: Smart code completion and navigation, Excellent support for C++11/14/17...</p>
+                        <p>Cons: Commercial license required, May be resource-intensive for large projects.</p>
+                        <p>Fees: Commercial license with a free trial available.</p>
+                    </li>
+                    <!-- Add more C++ IDEs if needed -->
+                </ul>
+            </div>
+            <div>
+                <video width="" height="360" controls>
+                    <source src="images/126_1702352216.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h2 id="additional-plugins">Additional Plugins</h2>
+            <p>Enhance your development experience by incorporating useful plugins. Some recommended plugins include:
+            </p>
+            <ul>
+                <li>Git integration for version control</li>
+                <li>Code formatting tools for maintaining a consistent coding style</li>
+                <li>Linters for identifying and fixing issues in your code</li>
+                <li>Database tools for seamless interaction with databases</li>
+                <!-- Add more plugins as needed -->
+            </ul>
+        </div>
+        <script type="module">
+            import Swup from 'https://unpkg.com/swup@4?module';
+            const swup = new Swup();
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="swup" class="transition-fade">
+    <div id="content">
+    <div id="debugging-section">
+        <h1 id="debug">Debugging Techniques</h1>
+
+        <p>Debugging is the process of finding and fixing errors in computer programs. It involves identifying issues, such as unexpected behaviors or crashes, and systematically resolving them. Debugging is an essential skill in software development, helping ensure the reliability and efficiency of code. Developers use techniques like print statements and debugging tools to track down and eliminate bugs, making the code robust and error-free. </p>
+        <p>As a beginner, you can use chatGPT or other AI tools to help with debugging. </p>
+        <img src="images/chatGPT.png" width="15%" alt="">
+        <p>Below are some debugging solutions:</p>
+
+        <h2 id="print-statements">1. Print Statements</h2>
+        <p>Insert print statements in your code to display variable values and messages. This helps track the flow of execution.</p>
+        <pre><code>// Example
+console.log("Checking system requirements...");
+
+// ... (existing code) ...
+
+console.log("System requirements checked successfully.");
+        </code></pre>
+
+        <h2 id="debugger">2. Debugger</h2>
+        <p>Use a debugger tool to set breakpoints, step through code, and inspect variable values during runtime. This provides a more interactive debugging experience.</p>
+        <pre><code>// Example
+// Set breakpoints in browser developer tools and inspect variables
+debugger;
+// ... (existing code) ...
+        </code></pre>
+
+        <h2 id="logging">3. Logging</h2>
+        <p>Implement logging statements to capture information during runtime. This is especially useful for tracking the flow of your program.</p>
+        <pre><code>// Example
+console.log("Checking system requirements...");
+
+// ... (existing code) ...
+
+console.log("System requirements checked successfully.");
+        </code></pre>
+
+        <h2 id="assertions">4. Assertions</h2>
+        <p>Introduce assert-like statements to validate assumptions about code behavior.</p>
+        <pre><code>// Example
+// Ensure minimum system requirements are met
+if (checkSystemRequirements()) {
+// ... (existing code) ...
+} else {
+console.error("System requirements not met. Check console for details.");
+}
+
+function checkSystemRequirements() {
+// ... (implementation of system requirements check) ...
+return true; // or false based on the check
+}
+        </code></pre>
+
+        <h2 id="exception-handling">5. Exception Handling</h2>
+        <p>Surround potentially problematic code with try-catch blocks to catch and handle exceptions.</p>
+        <pre><code>// Example
+try {
+// ... (code that might throw an exception) ...
+} catch (error) {
+console.error(`An error occurred: ${error.message}`);
+}
+</code></pre>
+
+        <h2 id="code-isolation">6. Code Isolation</h2>
+        <p>Temporarily comment out or isolate specific sections of code to identify the root cause of an issue.</p>
+        <pre><code>
+</code></pre>
+</menu>
+</div>
+
+    <div id="menu">
+        <ul>
+            <li><a href="intro.html">Introduction</a>
+                <ul class="submenu">
+                    <li><a>Our Purpose</a></li>
+                    <li><a>Acknowledgements</a></li>
+                </ul>
+            </li>
+            <li><a href="introtop.html">Intro To Programming</a>
+                <ul class="submenu">
+                    <li><a>List of Vocabulary</a></li>
+                    <li><a>Programming Languages</a></li>
+                    <li><a>Usages of Programming</a></li>
+                    <li><a>Basic Concepts</a></li>
+                </ul>
+            </li>
+            <li><a href="basicsetup.html">Basic Setup</a>
+                <ul class="submenu">
+                    <li><a>Introduction to IDEs</a></li>
+                    <li><a>System Requirements</a></li>
+                    <li><a>Languages and Recommended IDEs</a></li>
+                    <li><a>Additional Plugins</a></li>
+                </ul>
+            </li>
+            <li><a href="comwithai.html">Communicating With AI</a>
+                <ul class="submenu">
+                    <li><a>Phrasing/Communication</a></li>
+                </ul>
+            </li>
+            <li><a href="debug.html">Debug</a>
+                <ul class="submenu">
+                    <li><a>Tools</a></li>
+                    <li><a>Steps to Debug</a></li>
+                    <li><a>Where & How to Define a Bug</a></li>
+                    <li><a>How to Fix the Bug Using AI</a></li>
+                </ul>
+            </li>
+            <li><a href="#vocabulary-chart">Vocabulary Chart</a></li>
+        </ul>
+    </div>
+    <script src="https://unpkg.com/swup@4"></script>
+<script>
+  const swup = new Swup();
+</script>
+</body>
+</html>
