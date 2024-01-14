@@ -19,7 +19,7 @@
     
         #menu {
             position: fixed;
-            left: -200px;
+            /* left: -200px; */
             top: 0;
             background-color: #F1FAEE;
             color: rgb(255, 255, 255);
@@ -28,7 +28,7 @@
             height: 100vh;
             font-family: Georgia, serif;
             width: 200px;
-            transition: left 0.3s ease;
+            /* transition: left 0.3s ease; */
             border-right: 0;
         }
     
@@ -78,7 +78,8 @@
             border-right: none;
             max-height: 0;
             overflow: hidden;
-            transition: max-height 3s ease; /* Animation for the submenu */
+            /* Animation for the submenu */
+            /* transition: max-height 3s ease;  */
         }
     
         #menu:hover ul.submenu {
@@ -86,17 +87,13 @@
         }
     
         #content {
-            margin-left: 0;
+            margin-left: 240px;
             padding: 60px;
             font-family: Georgia, serif;
             background-color: #A8DADC;
             overflow-y: auto;
             border-left: 0;
-            transition: margin-left 0.3s ease;
-        }
-    
-        #content:hover {
-            border-left: 2px solid #f08484;
+            /* transition: margin-left 0.3s ease; */
         }
     
         #content:hover + #menu {
